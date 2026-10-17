@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">NexRes</string>
+    <string name="app_tagline">Разрешение и плотность</string>
+    <string name="device_unknown">Неизвестное устройство</string>
+
+    <string name="status_shizuku_connected_title">Shizuku подключён</string>
+    <string name="status_shizuku_connected_detail">Привилегированный доступ готов</string>
+    <string name="status_shizuku_denied_title">Нужно разрешение Shizuku</string>
+    <string name="status_shizuku_denied_detail">Shizuku запущен — предоставьте разрешение, чтобы продолжить</string>
+    <string name="status_shizuku_stopped_title">Shizuku не запущен</string>
+    <string name="status_shizuku_stopped_detail">Запустите Shizuku и вернитесь</string>
+    <string name="status_root_title">Доступ root</string>
+    <string name="status_root_detail">Команды выполняются через su</string>
+    <string name="status_none_title">Нет привилегированного доступа</string>
+    <string name="status_none_detail">Предоставьте Shizuku или root, чтобы изменить экран</string>
+
+    <string name="action_grant">Разрешить</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_get">Установить</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="action_apply">Применить</string>
+    <string name="action_reset">Сбросить</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_delete">Удалить</string>
+
+    <string name="backend_label">Бэкенд</string>
+    <string name="backend_shizuku">Shizuku</string>
+    <string name="backend_root">Root</string>
+
+    <string name="current_resolution">Текущее разрешение</string>
+    <string name="physical">Физическое</string>
+    <string name="panel_dpi">DPI панели</string>
+    <string name="mode">Режим</string>
+    <string name="mode_custom">Свой</string>
+    <string name="mode_default">По умолчанию</string>
+    <string name="state_override">Активно</string>
+    <string name="state_default">Исходное</string>
+    <string name="display_unavailable">Недоступно</string>
+
+    <string name="custom_resolution">Своё разрешение</string>
+    <string name="field_width">Ширина</string>
+    <string name="field_height">Высота</string>
+    <string name="field_density">DPI</string>
+    <string name="unit_dpi">%1$d dpi</string>
+    <string name="size_format">%1$d × %2$d</string>
+
+    <string name="presets_title">Профили</string>
+    <string name="preset_name_hint">Название профиля (необязательно)</string>
+    <string name="presets_empty">Профилей пока нет. Задайте размер выше и сохраните его для переключения в одно касание.</string>
+
+    <string name="msg_perm_granted">Разрешение Shizuku предоставлено</string>
+    <string name="msg_perm_denied">Разрешение Shizuku отклонено</string>
+    <string name="msg_no_access">Привилегированный доступ недоступен</string>
+    <string name="msg_invalid_values">Введите корректные ширину, высоту и плотность</string>
+    <string name="msg_read_failed">Не удалось прочитать экран</string>
+    <string name="msg_applied">Применено: %1$d × %2$d при %3$d dpi</string>
+    <string name="msg_apply_failed">Не удалось применить</string>
+    <string name="msg_reset_done">Сброшено по умолчанию</string>
+    <string name="msg_reset_failed">Не удалось сбросить</string>
+    <string name="msg_preset_saved">Профиль \"%1$s\" сохранён</string>
+    <string name="msg_enter_valid">Введите корректные значения перед сохранением</string>
+    <string name="language_title">Язык</string>
+</resources>

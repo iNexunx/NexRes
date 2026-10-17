@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">NexRes</string>
+    <string name="app_tagline">Auflösung und Dichte</string>
+    <string name="device_unknown">Unbekanntes Gerät</string>
+
+    <string name="status_shizuku_connected_title">Shizuku verbunden</string>
+    <string name="status_shizuku_connected_detail">Privilegierter Zugriff ist bereit</string>
+    <string name="status_shizuku_denied_title">Shizuku-Berechtigung erforderlich</string>
+    <string name="status_shizuku_denied_detail">Shizuku läuft – erteile die Berechtigung, um fortzufahren</string>
+    <string name="status_shizuku_stopped_title">Shizuku läuft nicht</string>
+    <string name="status_shizuku_stopped_detail">Starte Shizuku und komm zurück</string>
+    <string name="status_root_title">Root-Zugriff</string>
+    <string name="status_root_detail">Befehle laufen über su</string>
+    <string name="status_none_title">Kein privilegierter Zugriff</string>
+    <string name="status_none_detail">Erteile Shizuku oder nutze Root, um das Display zu ändern</string>
+
+    <string name="action_grant">Erlauben</string>
+    <string name="action_open">Öffnen</string>
+    <string name="action_get">Holen</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_apply">Anwenden</string>
+    <string name="action_reset">Zurücksetzen</string>
+    <string name="action_save">Speichern</string>
+    <string name="action_delete">Löschen</string>
+
+    <string name="backend_label">Backend</string>
+    <string name="backend_shizuku">Shizuku</string>
+    <string name="backend_root">Root</string>
+
+    <string name="current_resolution">Aktuelle Auflösung</string>
+    <string name="physical">Physisch</string>
+    <string name="panel_dpi">Panel-DPI</string>
+    <string name="mode">Modus</string>
+    <string name="mode_custom">Benutzerdefiniert</string>
+    <string name="mode_default">Standard</string>
+    <string name="state_override">Aktiv</string>
+    <string name="state_default">Original</string>
+    <string name="display_unavailable">Nicht verfügbar</string>
+
+    <string name="custom_resolution">Benutzerdefinierte Auflösung</string>
+    <string name="field_width">Breite</string>
+    <string name="field_height">Höhe</string>
+    <string name="field_density">DPI</string>
+    <string name="unit_dpi">%1$d dpi</string>
+    <string name="size_format">%1$d × %2$d</string>
+
+    <string name="presets_title">Voreinstellungen</string>
+    <string name="preset_name_hint">Name der Voreinstellung (optional)</string>
+    <string name="presets_empty">Noch keine Voreinstellungen. Lege oben eine Größe fest und speichere sie für den Wechsel mit einem Tippen.</string>
+
+    <string name="msg_perm_granted">Shizuku-Berechtigung erteilt</string>
+    <string name="msg_perm_denied">Shizuku-Berechtigung verweigert</string>
+    <string name="msg_no_access">Kein privilegierter Zugriff verfügbar</string>
+    <string name="msg_invalid_values">Gib gültige Breite, Höhe und Dichte ein</string>
+    <string name="msg_read_failed">Display konnte nicht gelesen werden</string>
+    <string name="msg_applied">Angewendet: %1$d × %2$d bei %3$d dpi</string>
+    <string name="msg_apply_failed">Anwenden fehlgeschlagen</string>
+    <string name="msg_reset_done">Auf Standard zurückgesetzt</string>
+    <string name="msg_reset_failed">Zurücksetzen fehlgeschlagen</string>
+    <string name="msg_preset_saved">Voreinstellung \"%1$s\" gespeichert</string>
+    <string name="msg_enter_valid">Gib gültige Werte vor dem Speichern ein</string>
+    <string name="language_title">Sprache</string>
+</resources>

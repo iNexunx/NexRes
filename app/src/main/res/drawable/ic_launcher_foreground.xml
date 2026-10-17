@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Device outline -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M44,28 h20 a6,6 0 0 1 6,6 v40 a6,6 0 0 1 -6,6 h-20 a6,6 0 0 1 -6,-6 v-40 a6,6 0 0 1 6,-6 z" />
+
+    <!-- Resize arrow shaft -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M45,50 h18" />
+
+    <!-- Resize arrow heads -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M45,50 l4,-4 M45,50 l4,4" />
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M63,50 l-4,-4 M63,50 l-4,4" />
+
+    <!-- Density indicator -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,66 m-3,0 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0" />
+</vector>
